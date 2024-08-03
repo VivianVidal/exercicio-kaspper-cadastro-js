@@ -39,7 +39,7 @@ Ele permite cadastrar alunos e turmas, e listar os registros.
 ## Estrutura do Projeto
 
 ```plaintext
-sistema-cadastro-aluno-turma/
+exercicio-kaspper-cadastro-js/
 │
 ├── css/
 │   └── style.css
