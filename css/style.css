@@ -1,0 +1,202 @@
+body{
+    margin: 0 80px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(63 63 70);
+    color: rgb(255 255 255);
+}
+
+section{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       align-items: center;
+       gap: 3px;
+       height: 100px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+    font-weight: 500;
+    color: rgb(255 255 255);
+    background-color: rgb(101 163 13);
+    width: 18%;
+}
+
+button:hover{
+    background-color: rgb(77 124 15);
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.form-container {
+    display: none;
+    border-top:2px solid #ffffff;
+    padding: 6px;
+    text-align: left;
+}
+
+h1{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto;
+}
+
+input{
+    width: 30%;
+    margin: 8px 0;
+    border-radius: 4px;
+    background-color: antiquewhite;
+    height: 1.5rem;
+}
+
+h3{
+    font-weight: 600;
+}
+
+li{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1rem;
+}
+
+@media screen and (min-width: 634px) and (max-width:950px) {
+    body{
+        margin: 0 40px;
+    }
+
+    button{
+        font-size: small;
+        font-weight: 500;
+        width: 25%;
+    }
+
+    section{
+        gap: 1px;
+        align-items: flex-start;
+        height: 150px;
+    }
+
+    .form-container {
+        display: none;
+        border-top:1px solid #ffffff;
+        padding: 4px;
+        width: 100%;
+    }
+    
+    input{
+        width: 80%;
+        margin: 6px 0;
+    }
+}
+@media screen and (min-width: 350px) and (max-width:634px) {
+
+    body{
+        margin: 0 20px;;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+    
+    section{
+        height: 110px;
+    }
+    button{
+        font-size: small;
+        font-weight: 500;
+        width: 40%;
+    }
+
+
+    .form-container {
+        display: none;
+        border-top:1px solid #ffffff;
+        padding: 2px;
+        width: 100%;
+    }
+
+    label{
+        font-size: 18px;
+    }
+    
+    input{
+        width: 80%;
+        margin: 6px 0;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+    
+    li{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width:349px) {
+
+    body{
+        margin: 0 10px;;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+    
+    section{
+        flex-direction: column;
+        align-items: flex-start;
+        min-height: 200px;
+    }
+
+    button{
+        font-size: small;
+        font-weight: 500;
+        width: 90%;
+    }
+
+
+    .form-container {
+        display: none;
+        border-top:1px solid #ffffff;
+        padding: 2px;
+        width: 100%;
+    }
+
+    label{
+        display: none;
+        font-size: 15px;
+    }
+    
+    input{
+        width: 95%;
+        margin: 6px 0;
+    }
+
+    #listagem{
+        margin:20px 0;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    li{
+        font-size: 18px;
+        line-height: 1rem;
+    }
+}
