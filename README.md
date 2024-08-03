@@ -47,3 +47,7 @@ exercicio-kaspper-cadastro-js/
 │   └── script.js
 ├── index.html
 └── README.md
+```
+
+## Layout 
+![image](https://github.com/user-attachments/assets/52485bdb-ac5d-4734-9486-261e966a11f7)
