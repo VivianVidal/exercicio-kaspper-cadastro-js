@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SisCadAluno&&Turma</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Sistema de Cadastro de Turmas e Alunos</h1>
+        <hr>
+        <section id="menu">
+            <button onclick="mostraFormAluno()">Cadastrar Aluno</button>
+            <button onclick="mostraFormTurma()">Cadastrar Turma</button>
+            <button onclick="listarAlunos()">Listar Aluno</button>
+            <button onclick="listarTurmas()">Listar Turma</button>
+        </section>
+
+        <form id="formulario-aluno" class="form-container">
+            <h3>Cadastrar Aluno</h3>
+            <label>Nome: </label>
+            <input required type="text" name="" id="nome-aluno" placeholder="Digite o nome do aluno: "><br>  
+            <label>Idade: </label>
+            <input required type="number" name="" id="idade-aluno" placeholder="Digite a idade do aluno: "><br>
+            <button onclick="cadastrarAluno()">Cadastrar Aluno</button>
+        </form>
+        <form id="formulario-turma" class="form-container">
+            <h3>Cadastrar Turma</h3>
+            <label>Nome: </label>
+            <input required type="text" name="" id="nome-turma" placeholder="Digite o nome da turma: "><br>
+            <label>Sala:</label>
+            <input required type="number" name="" id="sala-turma" placeholder="Digite a sala da turma: "><br>
+            <button onclick="cadastrarTurma()">Cadastrar Turma</button>
+        </form>
+
+        <div id="listagem"></div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
